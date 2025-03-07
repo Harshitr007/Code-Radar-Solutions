@@ -6,5 +6,5 @@ int main(){
     if (a>b)
     printf("%d",a);
     else
-    printf("%b",b);
+    printf("%d",b);
 }

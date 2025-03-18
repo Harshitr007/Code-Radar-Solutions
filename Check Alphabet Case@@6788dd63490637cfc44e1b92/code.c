@@ -3,9 +3,12 @@
 int main(){
     char a;
     scanf("%c",&a);
-    if (a>="A" && a>="Z")
+    if (a>="A" && a<="Z")
     printf("Uppercase");
-    else
+
+    else if (a>="a" && a<="z")
     printf("Lowercase");
+    else
+    printf("not a aplhabet")
 
 }

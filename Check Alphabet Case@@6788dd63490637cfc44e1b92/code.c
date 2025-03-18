@@ -9,4 +9,5 @@ int main(){
     printf("Lowercase");
     else
     printf("Not an aplhabet");
+    return 0;
 }

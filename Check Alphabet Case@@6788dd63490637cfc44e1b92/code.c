@@ -9,6 +9,6 @@ int main(){
     else if (a>="a" && a<="z")
     printf("Lowercase");
     else
-    printf("not a aplhabet")
+    printf("not a aplhabet");
 
 }

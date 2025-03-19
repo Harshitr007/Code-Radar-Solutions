@@ -3,10 +3,11 @@
 int main(){
     int a,b,c;
     scanf("%d%d%d",&a,&b,&c);
-    if (a>=c && a>=b)
+    if (a>=c && a>=b){
     printf(a);
-    else if(b>=a && b>=c)
+    }else if(b>=a && b>=c){
     printf(b);
-    else
+    }else{
     printf(c);
+    }
     }
